@@ -1,0 +1,9 @@
+{
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/queroCadastrar",
+        "permanent": true
+      }
+    ]
+  }
