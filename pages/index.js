@@ -11,12 +11,13 @@ export default function Inicio() {
   return (
     <div>
       <Slider />
-      <Tema />
-      <Mapa />
-      <Programacao/>
-      <Proposta/>
-      <Indicadores />
+      <section id="tema"><Tema /></section>
+      <section id="mapa"><Mapa /></section>
+      <section id="programacao"><Programacao/></section>
+      <section id="propostas"><Proposta/></section>
+      <section id="indicadores"><Indicadores /></section>
       <Comissao />
     </div>
   );
 }
+

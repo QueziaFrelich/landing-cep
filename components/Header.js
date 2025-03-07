@@ -15,26 +15,27 @@ export default function Header() {
                 <Link href={'/'}>
                     <Image src={Logo} className='logo' alt="Logo" />
                 </Link>
-                    <div id="navbarNav" className="d-flex">
-                        <ul className="navbar-nav ms-auto me-auto d-flex flex-row align-items-center">
-                            <li className="nav-item">
-                                <Link href={'/queroReservar'} className="px-3">Início</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href={'/queroReservar'} className="px-3">Tema 2025</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href={'/queroReservar'} className="px-3" >Programação</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href={'/queroReservar'} className="px-3">Propostas</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link href={'/queroReservar'} className="px-3">Indicadores</Link>
-                            </li>
-                        </ul>
-                    </div>
+                <div id="navbarNav" className="d-flex">
+                    <ul className="navbar-nav ms-auto me-auto d-flex flex-row align-items-center">
+                        <li className="nav-item">
+                            <Link href={'/#'} className="px-3">Início</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/#tema'} className="px-3">Tema 2025</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/#programacao'} className="px-3">Programação</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/#propostas'} className="px-3">Propostas</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href={'/#indicadores'} className="px-3">Indicadores</Link>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     );
+    
 }
