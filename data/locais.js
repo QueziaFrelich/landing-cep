@@ -124,6 +124,18 @@ export const locais = [
       nome: "Inspetoria de Araranguá",
       data: "14/04 - 18h",
       endereco: "A definir",
+    },
+    {
+      id: 22,
+      nome: "Inspetoria de Lages e São Joaquim",
+      data: "10/06 - 18h",
+      endereco: "A definir",
+    },
+    {
+      id: 23,
+      nome: "Inspetoria de Curitibanos ",
+      data: "05/06 - 18h",
+      endereco: "A definir",
     }
   ];
   

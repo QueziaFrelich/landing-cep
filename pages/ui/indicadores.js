@@ -1,11 +1,13 @@
 // ui/Indicadores.js
 import React from 'react';
 import Image from 'next/image';
+import { FaChevronRight } from "react-icons/fa";
+
 import BgIndicadores from '../../public/images/bg-indicadores.svg';
 
 export default function Indicadores() {
   return (
-    <section>
+    <section className='indicadores'>
         <div className="container py-5">
           <div className="row align-items-center">
             <div className="col-md-8">
@@ -21,6 +23,7 @@ export default function Indicadores() {
                 CadÚnico, entre outras. A escolha dos indicadores segue um formato rigoroso,
                 que busca atender os princípios do IPS e as perguntas norteadoras dos componentes.
               </p>
+              <button>Conferir indicadores <FaChevronRight /></button>
             </div>
             <div className="col-md-4 align-self-start p-5">
               <Image src={BgIndicadores} alt="background" className="img-fluid" />

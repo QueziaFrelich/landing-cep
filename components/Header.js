@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../public/images/header/logo-cep.svg';
-import { useState } from 'react';
 import { useRouter } from 'next/router';
+import { useState } from 'react';
 
 export default function Header() {
     const router = useRouter();
-
-    
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
     return (
         <nav className={`navbar navbar-expand-lg fixed-top header`}>
@@ -26,8 +25,18 @@ export default function Header() {
                         <li className="nav-item">
                             <Link href={'/#programacao'} className="px-3">Programação</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link href={'/#propostas'} className="px-3">Propostas</Link>
+                        <li className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
+                            <a className="px-3 dropdown-toggle" style={{ cursor: 'pointer' }}>Propostas</a>
+                            {dropdownOpen && (
+                                <ul className="dropdown-menu show" style={{ display: 'block', position: 'absolute' }}>
+                                    <li>
+                                        <a className="dropdown-item" href=" " target="_blank" rel="noopener noreferrer">2025</a>
+                                    </li>
+                                    <li>
+                                        <a className="dropdown-item" href=" " target="_blank" rel="noopener noreferrer">2024</a>
+                                    </li>
+                                </ul>
+                            )}
                         </li>
                         <li className="nav-item">
                             <Link href={'/#indicadores'} className="px-3">Indicadores</Link>
@@ -37,5 +46,4 @@ export default function Header() {
             </div>
         </nav>
     );
-    
 }

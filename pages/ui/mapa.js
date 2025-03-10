@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FiCalendar, FiMapPin } from 'react-icons/fi';
-import ImgMapa from '../../public/images/mapa.svg';
+import ImgMapa from '../../public/images/mapa-0.svg';
 import BotaoLocal from '../../public/images/botao-local.svg';
 import { locais } from '../../data/locais'; // Importa os dados corretamente
 

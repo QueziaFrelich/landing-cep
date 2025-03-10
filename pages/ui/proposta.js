@@ -1,6 +1,7 @@
 // ui/Proposta.js
 import React from 'react';
 import Image from 'next/image';
+import { FaChevronRight } from "react-icons/fa";
 import Propsta from '../../public/images/bg-proposta.png';
 
 export default function Proposta() {
@@ -28,6 +29,7 @@ export default function Proposta() {
                 pré-definidos, explorar problemas reais e que possam melhorar a qualidade
                 de vida da população, conforme o IPS Brasil.
               </p>
+              <button>Ver propostas <FaChevronRight /></button>
             </div>
             <div className="col-md-5 align-self-start p-5">
               <Image src={Propsta} alt="background" className="img-fluid" />
