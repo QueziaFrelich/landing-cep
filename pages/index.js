@@ -13,9 +13,9 @@ export default function Inicio() {
       <Slider />
       <section id="tema"><Tema /></section>
       <section id="mapa"><Mapa /></section>
-      <section id="programacao"><Programacao/></section>
-      <section id="propostas"><Proposta/></section>
-      <section id="indicadores"><Indicadores /></section>
+      <section><Programacao/></section>
+      <Proposta/>
+      <Indicadores />
       <Comissao />
     </div>
   );
