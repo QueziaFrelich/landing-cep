@@ -7,7 +7,6 @@ export const palestrantes_2024 = [
       description:
         "Engenheira Sanitarista, Ambiental e de Segurança do Trabalho, especialista em resíduos. Coordenadora do último CEP e atualmente diretora financeira do CREA.",
       instagram: "https://www.instagram.com/nandavanhoni?igsh=MW1teThrcGlleHI0Ng%3D%3D&utm_source=qr",
-      linkedin: " ",
     },
     {
       profile: "/images/palestrante/Corbellini.png",
@@ -16,8 +15,6 @@ export const palestrantes_2024 = [
       tag: "Membro titular",
       description:
         "Eng. Mecânico, Presidente da Associação Brasileira de Engenheiros Mecânicos de Santa Catarina - ABEMEC SC,  Vice Presidente da Federação Nacional de Engenheiros Mecânicos Industriais - FENEMI, Diretor do Sindicato de Engenheiros de Santa Catarina - SENGE SC, Conselheiro do CREA SC.",
-      instagram: " ",
-      linkedin: " ",
     },
     {
       profile: "/images/palestrante/Douglas-Cesar-Patel.png",
@@ -26,8 +23,8 @@ export const palestrantes_2024 = [
       tag: "Membro titular",
       description:
         "Coordenador dos Inspetores Chefes de CREA-SC.",
-      instagram: "http://linkedin.com/in/douglas-cesar-patel-667360205",
-      linkedin: "https://www.instagram.com/douglascesarpatel?igsh=NzJlYmVmOHB3dmZn&utm_source=qr",
+      instagram: "https://www.instagram.com/douglascesarpatel/?igsh=NzJlYmVmOHB3dmZn&utm_source=qr#",
+      linkedin: "http://linkedin.com/in/douglas-cesar-patel-667360205",
     },
     {
       profile: "/images/palestrante/Isabelle-Regis.png",
@@ -46,8 +43,7 @@ export const palestrantes_2024 = [
       tag: "Profissional especialista",
       description:
         "Catarinense, ex-ministro do Turismo e ex-presidente da Embratur do governo Temer. Formado em Ciências Políticas pela Universidade Americana de Paris com cursos executivos na Universidade de Harvard e IMD da Suíça. Atualmente, é presidente do Conselho do Grupo Wish de Hotéis e Resorts. É o primeiro fellow brasileiro do Milken Institute, sediado em Los Angeles. Engenheiro Eletricista (UFSC, 1986), Mestre em Administração (UNIVALI, 2007).",
-      instagram: "@enio.padilha",
-      linkedin: "",
+      instagram: "https://www.instagram.com/enio.padilha/",
     },
     {
       profile: "/images/palestrante/Eliakin-de-Souza-Bueno.png",
