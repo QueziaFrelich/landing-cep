@@ -39,7 +39,8 @@ export default function Header() {
                             )}
                         </li>
                         <li className="nav-item">
-                            <Link href={'/#indicadores'} className="px-3">Indicadores</Link>
+                        <Link href="https://ipsbrasil.org.br/pt/explore/scorecard/4200051" className="px-3" target="_blank" rel="noopener noreferrer"> Indicadores</Link>
+
                         </li>
                     </ul>
                 </div>
