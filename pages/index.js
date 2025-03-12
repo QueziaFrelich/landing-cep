@@ -13,7 +13,7 @@ export default function Inicio() {
       <Slider />
       <section id="tema"><Tema /></section>
       <section id="mapa"><Mapa /></section>
-      <section><Programacao/></section>
+      <section id="programacao"><Programacao/></section>
       <Proposta/>
       <Indicadores />
       <Comissao />
