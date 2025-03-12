@@ -10,7 +10,7 @@ export default function Mapa() {
   const [localSelecionado, setLocalSelecionado] = useState(locais[0]);
 
   return (
-    <section className="mapa">
+    <section className="mapa my-5">
       <div className="container mt-5">
         <h2>ENCONTROS PREPARATÓRIOS</h2>
         <div className="row align-items-center">

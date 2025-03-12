@@ -12,24 +12,20 @@ export default function Proposta() {
             <div className="col-md-7">
               <h2>PROPOSTAS</h2>
               <p>
-                Todos os participantes têm direito a voz. Somente os delegados
-                institucionais e estaduais têm direito a voto. As propostas devem
-                contemplar, obrigatoriamente, os seguintes requisitos (Resolução
-                1.013/2005, art. 17)
+              O 15º CEP é uma oportunidade estratégica para profissionais da área tecnológica contribuírem para o desenvolvimento do Brasil. A estrutura do evento será projetada para evidenciar a eficácia das propostas, promover a interlocução entre os participantes e o alinhamento entre as soluções propostas com as necessidades sociais e econômicas do país, de forma prática e inovadora.
+              As propostas deverão contemplar soluções para problemas pré-definidos, explorar problemas reais e que possam melhorar a qualidade de vida da população, conforme o IPS Brasil.
               </p>
               <p>
-                <span>I.</span> situação existente;
-                <br /><span>II.</span> proposição;
-                <br /><span>III.</span> justificativa;
-                <br /><span>IV.</span> fundamentação legal;
-                <br /><span>V.</span> sugestão de mecanismos para implementação
+                <span>I. Impacto Social:</span>O potencial da solução para melhorar a qualidade de vida da população;
+                <br /><span>II. Viabilidade Técnica:</span>Avaliação da capacidade de implementação da solução com os recursos disponíveis;
+                <br /><span>III. Sustentabilidade:</span>Foco em soluções que promovam a sustentabilidade ambiental e econômica;
+                <br /><span>IV. Alinhamento com o IPS:</span> Propostas devem estar alinhadas com as dimensões e componentes do Índice de Progresso Social (IPS), em especial aqueles em que a graduação seja baixa, contribuindo assim para sua melhoria;
+               
               </p>
               <p>
-                Além disso, as propostas deverão contemplar soluções para problemas
-                pré-definidos, explorar problemas reais e que possam melhorar a qualidade
-                de vida da população, conforme o IPS Brasil.
+              Você pode enviar a sua proposta e interagir (curtir, comentar e sugerir modificações) com as propostas já cadastradas pelos demais participantes.
               </p>
-              <button>Ver propostas <FaChevronRight /></button>
+              <button>Acesse aqui a Plataforma Digital das Propostas <FaChevronRight /></button>
             </div>
             <div className="col-md-5 align-self-start p-5">
               <Image src={Propsta} alt="background" className="img-fluid" />

@@ -20,7 +20,7 @@ html {
 
   .titulo {
     color: $secondary;
-    font-size: 48pt;
+    font-size: 24pt;
     font-weight: 700;
     line-height: 1;
   }
@@ -35,23 +35,62 @@ html {
     font-weight: 600;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas em telas grandes */
+    gap: 10px; /* Espaçamento entre os cards */
+    width: 100%;
+    padding: 10px;
+  }
+  
   .card {
-    min-width: 50px;
-    max-width: 196px;
-    border: 1.5pt solid white;
     background-color: rgba(255, 255, 255, 0.158);
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px;
     text-align: center;
-    border-radius: 5%;
-
-    h2 {
-      font-size: medium;
-      margin: 0;
+    font-weight: bold;
+    border: 1.5px solid $secondary;
+    max-height: 220px;
+    
+    /* Garantir que o card tenha a mesma largura, mas altura ajustada ao conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+  
+    height: 100%; /* A altura será ajustada automaticamente */
+  }
+  
+  .card h2 {
+    font-size: medium;
+  }
+  
+  .card p {
+    font-size: 9pt;
+    line-height: 12pt;
+  }
+  
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
     }
 
-    p {
-      font-size: small;
+    .titulo {
+      color: $secondary;
+      font-size: 24pt;
+      font-weight: 700;
+      line-height: 1;
     }
   }
+  
+  @media (max-width: 600px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  
+  
 }
 
 .mapa {

@@ -18,24 +18,9 @@ export default function Programacao() {
     <section className="mapa">
       <div className="container mt-4 p-5">
         <h2>PROGRAMAÇÃO</h2>
-
-        {/* Dropdown para selecionar a cidade */}
-        <DropdownButton
-          id="dropdown-basic-button"
-          title="Selecionar inspetoria"
-          className="custom-dropdown"
-        >
-          {Object.keys(conteudos).map((cidade) => (
-            <Dropdown.Item key={cidade} onClick={() => handleSelectOption(cidade)}>
-              {cidade}
-            </Dropdown.Item>
-          ))}
-        </DropdownButton>
-
-        {/* Exibição da programação da cidade selecionada */}
         <div className="mt-3 rounded bg-transparemt">
           {selectedOption && conteudos[selectedOption] ? (
-            conteudos[selectedOption]  // Exibe o conteúdo da cidade selecionada
+            conteudos[selectedOption]
           ) : (
             <p>Selecione uma inspetoria para ver a programação.</p>
           )}

@@ -81,13 +81,13 @@ export const locais = [
       id: 14,
       nome: "Inspetoria de Xanxerê",
       data: "26/03 - 18h",
-      endereco: "A definir",
+      endereco: "Rua Severino Tonial, 1030 - João Batista Tonial, Xanxerê - SC.",
     },
     {
       id: 15,
       nome: "Inspetoria de Chapecó",
       data: "27/03 - 18h",
-      endereco: "A definir",
+      endereco: "Av. Getúlio Dorneles Vargas, 957S - Palmital, Chapecó - SC",
     },
     {
       id: 16,
@@ -105,7 +105,7 @@ export const locais = [
       id: 18,
       nome: "Inspetoria de Concórdia",
       data: "25/03 - 18h",
-      endereco: "A definir",
+      endereco: "Rua Anita Garibaldi, 119 - Centro, Concórdia - SC",
     },
     {
       id: 19,
