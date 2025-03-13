@@ -345,11 +345,35 @@ html {
     color: $primary;
   }
 
-  a{
+  a {
     color: $primary;
   }
-
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) { /* Tablets e celulares grandes */
+  .speaker-card.open {
+    width: 450px; /* Ocupa 90% da largura da tela */
+    grid-column: span 0; /* Ajusta para não ocupar muito espaço */
+  }
+}
+
+@media (max-width: 480px) { /* Celulares menores */
+  .speaker-card.open {
+    width: 300px; /* Ocupa toda a largura disponível */
+    grid-column: span 1;
+  }
+
+  .speaker-name {
+    font-size: 18px; /* Diminui o tamanho do nome */
+  }
+
+  .speaker-position {
+    font-size: 10px; /* Diminui o tamanho da posição */
+  }
+}
+
+
 
 .speaker-image {
   min-width: 195px;
