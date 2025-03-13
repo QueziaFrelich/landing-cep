@@ -3,7 +3,7 @@ export const locais = [
       id: 1,
       nome: "Inspetoria de Brusque",
       data: "30/04 - 19h",
-      endereco: "Centro Comercial Dell Agnolo Center - Av. Getúlio Vargas, 104 - Centro 2, Brusque - SC",
+      endereco: "A definir",
     },
     {
       id: 2,
@@ -82,12 +82,14 @@ export const locais = [
       nome: "Inspetoria de Xanxerê",
       data: "26/03 - 18h",
       endereco: "Rua Severino Tonial, 1030 - João Batista Tonial, Xanxerê - SC.",
+      inscricao: "https://www.sympla.com.br/evento/encontro-preparatorio-para-o-15-congresso-estadual-de-profissionais-crea-sc-regiao-de-xanxere/2870094"
     },
     {
       id: 15,
       nome: "Inspetoria de Chapecó",
       data: "27/03 - 18h",
       endereco: "Av. Getúlio Dorneles Vargas, 957S - Palmital, Chapecó - SC",
+      inscricao: "https://www.sympla.com.br/evento/encontro-preparatorio-para-o-15-congresso-estadual-de-profissionais-crea-sc-regiao-de-chapeco/2870104"
     },
     {
       id: 16,
@@ -106,6 +108,7 @@ export const locais = [
       nome: "Inspetoria de Concórdia",
       data: "25/03 - 18h",
       endereco: "Rua Anita Garibaldi, 119 - Centro, Concórdia - SC",
+      inscricao: "https://www.sympla.com.br/evento/encontro-preparatorio-para-o-15-congresso-estadual-de-profissionais-crea-sc-regiao-de-concordia/2869929"
     },
     {
       id: 19,
