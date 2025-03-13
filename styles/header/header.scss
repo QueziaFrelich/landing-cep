@@ -1,5 +1,10 @@
 @import '../setColors.scss';
 
+html, body {
+    overflow-x: hidden; /* Impede rolagem lateral */
+    width: 100%; /* Garante que ocupe toda a largura */
+  }
+  
 .header {
     background: $primary;
     padding: 10px 0;

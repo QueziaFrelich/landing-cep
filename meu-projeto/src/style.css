@@ -26,6 +26,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  overflow-x: hidden; /* Impede rolagem lateral */
+    width: 100%; /* Garante que ocupe toda a largura */
   /*min-width: 320px;*/
   /* min-height: 100vh;*/
 }
