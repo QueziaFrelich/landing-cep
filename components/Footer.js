@@ -41,10 +41,10 @@ const Footer = () => {
                                 </div>
                                
                                 <div className="d-flex align-items-center p-2">
-                                    <Link href={'https://www.instagram.com/creascoficial/'}>
+                                    <Link className="pe-3" href={'https://www.instagram.com/creascoficial/'}>
                                         <InstagramIcon fill='white' />
                                     </Link>
-                                    <Link className='px-3' href={'https://www.linkedin.com/company/crea-sc/?originalSubdomain=br'}>
+                                    <Link className='px-3 ' href={'https://www.linkedin.com/company/crea-sc/?originalSubdomain=br'}>
                                         <LinkedinIcon fill='white' />
                                     </Link>
                                     <Link className='px-3' href={'https://www.youtube.com/channel/UCSgs2Xvs4T6EIEjFa4oE4sQ'}>

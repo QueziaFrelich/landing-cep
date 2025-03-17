@@ -10,9 +10,10 @@ export default function Mapa() {
   const [localSelecionado, setLocalSelecionado] = useState(locais[0]);
 
   return (
-    <section className="mapa my-5">
+    <section className="mapa my-5 pt-1">
       <div className="container mt-5">
         <h2>ENCONTROS PREPARATÓRIOS</h2>
+        <p>Clique nas regiões do estado para verificar os locais e links de inscrição dos Encontros Preparatórios do 15º CEP</p>
         <div className="row align-items-center">
           <div className="col-12 col-md-8 d-flex justify-content-center position-relative">
             <Image src={ImgMapa} alt="Mapa macro regiões" className="img-fluid" />

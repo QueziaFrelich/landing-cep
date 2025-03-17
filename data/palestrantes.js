@@ -2,8 +2,8 @@ export const palestrantes_2024 = [
   {
     profile: "/images/palestrante/Kita-Xavier.png",
     fullName: "Kita Xavier",
-    position: "Presidente - Crea-SC",
-    tag: "Presidente",
+    position: "Eng. Civ. e Seg. Trab",
+    tag: "Presidente do CREA-SC",
     description:
       "Eng. Civil e de Segurança do Trabalho, apaixonado por gestão de pessoas, engenharia, inovação e transformação tecnológica. Em prol do desenvolvimento de Santa Catarina e da engenharia catarinense, foi eleito quatro vezes presidente do Crea-SC, sendo gestor até o momento. Presidiu a Associação dos Conselhos Profissionais de SC em 2015/2016. Esteve à frente da EMASA/Balneário Camboriú, em 2020, como diretor técnico e por 24 anos foi responsável técnico da Construtora Zita, na Grande Florianópolis.",
     instagram: "https://www.instagram.com/kitaxaviersc/",

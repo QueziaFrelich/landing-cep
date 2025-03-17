@@ -1,6 +1,6 @@
 export default function LinkedinIcon ({fill}) {
     return(
-      <svg xmlns="http://www.w3.org/2000/svg" width={17} height={16} fill="none">
+      <svg xmlns="http://www.w3.org/2000/svg" width={17} height={17} fill="none">
       <path
         fill={fill}
         className='icon-footer'
