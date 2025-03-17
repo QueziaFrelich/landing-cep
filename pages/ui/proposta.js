@@ -25,7 +25,10 @@ export default function Proposta() {
               <p>
               Você pode enviar a sua própria proposta e curtir, comentar e sugerir modificações nas propostas já cadastradas pelos demais participantes              
               </p>
+              <a href="http://propostas.crea-sc.org.br/" target="_blank" rel="noopener noreferrer">
               <button>Acesse aqui a Plataforma Digital das Propostas <FaChevronRight /></button>
+              </a>
+              
             </div>
             <div className="col-md-5 align-self-start p-5">
               <Image src={Propsta} alt="background" className="img-fluid" />

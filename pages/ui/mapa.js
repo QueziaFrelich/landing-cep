@@ -21,8 +21,7 @@ export default function Mapa() {
                 key={index}
                 className={`btn-mapa btn-mapa-${index + 1}`}
                 onClick={() => setLocalSelecionado(local)}
-              >
-                <Image src={BotaoLocal} alt={`Botão ${index + 1}`} width={50} height={50} />
+              >              
               </button>
             ))}
           </div>
