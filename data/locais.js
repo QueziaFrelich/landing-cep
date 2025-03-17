@@ -9,7 +9,7 @@ export const locais = [
       id: 2,
       nome: "Inspetoria de Florianópolis",
       data: "11/06 - 18h",
-      endereco: "Av. Rio Branco, 500 - Centro, Florianópolis - SC",
+      endereco: "A definir",
     },
     {
       id: 3,

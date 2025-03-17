@@ -1,5 +1,14 @@
 export const palestrantes_2024 = [
   {
+    profile: "/images/palestrante/Kita-Xavier.png",
+    fullName: "Kita Xavier",
+    position: "Presidente - Crea-SC",
+    tag: "Presidente",
+    description:
+      "Eng. Civil e de Segurança do Trabalho, apaixonado por gestão de pessoas, engenharia, inovação e transformação tecnológica. Em prol do desenvolvimento de Santa Catarina e da engenharia catarinense, foi eleito quatro vezes presidente do Crea-SC, sendo gestor até o momento. Presidiu a Associação dos Conselhos Profissionais de SC em 2015/2016. Esteve à frente da EMASA/Balneário Camboriú, em 2020, como diretor técnico e por 24 anos foi responsável técnico da Construtora Zita, na Grande Florianópolis.",
+    instagram: "https://www.instagram.com/kitaxaviersc/",
+    linkedin: "https://www.linkedin.com/in/kita-xavier-278732233/",
+  },{
     profile: "/images/palestrante/Felipe-Penter.png",
     fullName: "Felipe Penter",
     position: "Eng. Agr.",
@@ -69,7 +78,7 @@ export const palestrantes_2024 = [
   {
     profile: "/images/palestrante/Denis-Assis.png",
     fullName: "Denis Assis",
-    position: "Eng. Civil e Seg. Trab.",
+    position: "Eng. Civ. e Seg Trab",
     tag: "Membro suplente",
     description:
       "Engenheiro Civil e Engenheiro de Segurança do Trabalho.",
@@ -119,7 +128,7 @@ export const palestrantes_2024 = [
   {
     profile: "/images/palestrante/Roberta-Maas.png",
     fullName: "Roberta Maas",
-    position: "Engª. Civil Sanit. e Amb.",
+    position: "Engª. Civ e Sanit. Amb",
     tag: "Membro suplente",
     description:
       "Diretora Financeira da Mútua/SC. Presidente do SENGE/SC. Engª Civil, Sanitarista e Ambiental. Mestre em Gestão da Inovação. Mestranda em Engenharia de Transportes e Gestão Territorial UFSC. Possui Pós-graduada em Construção Civil; Eng. de Avaliações e Perícias; Gestão e Governança Corporativa Direcionada às Práticas de ESG; Licitações e compras públicas sustentáveis. MBA em Gestão de Sist. de Abastecimento de Água e Sist. de Esgotos Sanitários.",

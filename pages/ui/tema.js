@@ -8,9 +8,6 @@ export default function Tema() {
         <div className="row pt-5">
           <div className="col-12 col-md-6">
             <h2>O TEMA</h2>
-            <h5 className="pt-4">
-              Engenharia, Agronomia e<br /> Geociências na construção de
-            </h5>
             <p className="titulo">Engenharia, Agronomia e <br></br>Geociências no desenvolvimento<br></br> das cidades</p>
           </div>
           <div className="col-12 col-md-6">

@@ -7,7 +7,7 @@ export const conteudos = {
         <>
             <div className="container mt-4">
                 <div className="schedule-card">
-                    <strong className="time">18h30</strong>
+                    <strong className="time">18:30</strong>
                     <span className="description">Café de Boas-Vindas</span>
                 </div>
                 <div className="schedule-card">

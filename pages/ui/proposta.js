@@ -23,7 +23,7 @@ export default function Proposta() {
                
               </p>
               <p>
-              Você pode enviar a sua proposta e interagir (curtir, comentar e sugerir modificações) com as propostas já cadastradas pelos demais participantes.
+              Você pode enviar a sua própria proposta e curtir, comentar e sugerir modificações nas propostas já cadastradas pelos demais participantes              
               </p>
               <button>Acesse aqui a Plataforma Digital das Propostas <FaChevronRight /></button>
             </div>
