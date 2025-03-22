@@ -45,7 +45,7 @@ export default function Header() {
                             {dropdownOpen && (
                                 <ul className="dropdown-menu show">
                                     <li><a className="dropdown-item" href="http://propostas.crea-sc.org.br/" target="_blank" rel="noopener noreferrer">2025</a></li>
-                                    <li><a className="dropdown-item" href="#" target="_blank" rel="noopener noreferrer">2024</a></li>
+                                    {/* <li><a className="dropdown-item" href="#" target="_blank" rel="noopener noreferrer">2024</a></li> */}
                                 </ul>
                             )}
                         </li>
