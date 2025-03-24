@@ -63,10 +63,9 @@ const Footer = () => {
                         <div className="col-12 col-md-4 d ">
                             <ul className="list-unstyled w-100">
                                 <li className="d-flex align-items-center text-end"><strong>Contato</strong></li> {/* Alinha o título 'Contato' */}
-                                <li className="d-flex align-items-center"><FaUser className="me-2" /> Rhuan Bittencourt Assessor de Inovação</li>
-                                <li className="d-flex align-items-center"><FaPhone className="me-2" /> (48) 3331-2028</li>
+                                <li className="d-flex align-items-center"><FaUser className="me-2" /> Rhuan Bittencourt - Assessor de Inovação</li>
                                 <li className="d-flex align-items-center"><FaPhone className="me-2" /> (48) 98419-7848</li>
-                                <li className="d-flex align-items-center"><FaEnvelope className="me-2" /> inovacao@crea-sc.org.br</li>
+                                <li className="d-flex align-items-center"><FaEnvelope className="me-2" />cep@crea-sc.org.br</li>
                                 <li className="d-flex align-items-center"><FaMapMarkerAlt className="me-2" /> Florianópolis - SC</li>
                             </ul>
                         </div>

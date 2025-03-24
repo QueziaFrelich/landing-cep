@@ -15,7 +15,8 @@ export const locais = [
       id: 3,
       nome: "Inspetoria de Itajaí",
       data: "01/04 - 18h",
-      endereco: "A definir",
+      endereco: "Sinduscon BC - R. Angelina, 555 - Municípios, Balneário Camboriú - SC",
+      inscricao: "https://www.sympla.com.br/evento/encontro-preparatorio-para-o-15-congresso-estadual-de-profissionais-crea-sc-regiao-de-itajai/2880719"
     },
     {
       id: 4,
